@@ -45,6 +45,6 @@ public class Weapons : MonoBehaviour
             EnemyHealth enemyHealth = hit.transform.GetComponent<EnemyHealth>();
             if (enemyHealth == null) { return; }
             enemyHealth.TakeDamage(damage);
-        }
+        } 
     }
 }
